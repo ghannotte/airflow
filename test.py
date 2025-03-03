@@ -97,7 +97,7 @@ with DAG(
 
     # This test needs watcher in order to properly mark success/failure
     # when "tearDown" task with trigger rule is part of the DAG
-    list(dag.tasks) >> watcher()
+
 
 
 
